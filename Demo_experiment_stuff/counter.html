@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body style="font-family: Cambria;">
+    <h1>Counter = <span>0</span></h1>
+    <br /><br />
+    <button onclick="increaseCounter()" type="button">increase</button>
+    <br /><br />
+    <button onclick="decreaseCounter()" type="button">decrease</button>
+
+    <script>
+        const counterSpan = document.getElementsByTagName("span")[0];
+        let count = Number(counterSpan.innerText);
+
+        const increaseButton = document.querySelector("button");
+        const decreaseButton = increaseButton.nextElementSibling;
+
+        function increaseCounter() {
+            count++;
+            renderChange();
+        }
+        function decreaseCounter() {
+            count--;
+            renderChange();
+        }
+        function renderChange() {
+            counterSpan.innerText = count;
+        }
+    </script>
+</body>
+
+</html>
