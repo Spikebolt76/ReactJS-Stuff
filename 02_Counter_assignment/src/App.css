@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.counter-box {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 2px solid #4a90e2;       /* lighter blue border */
+  border-radius: 6px;
+  background-color: #1e1e1e;       /* dark background */
+  color: #a8c0ff;                  /* light blue text */
+  font-weight: bold;
+  font-size: 18px;
+  min-width: 50px;
+  text-align: center;
+  user-select: none;
+  box-shadow: 0 0 8px #4a90e2;    /* subtle glow effect */
+}
