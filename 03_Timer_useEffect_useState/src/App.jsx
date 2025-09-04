@@ -13,7 +13,7 @@ export default function Timer() {
 
   return (
     <div>
-      <h1>⏱ Timer</h1>
+      <h1># Timer</h1>
       <p>Elapsed time: {seconds} seconds</p>
     </div>
   );
