@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+    background-color: rgb(55, 53, 62);
+    font-family: 'Jetbrains Mono';
+}
+
+h1 {
+    color: rgb(211, 218, 217);
+}
